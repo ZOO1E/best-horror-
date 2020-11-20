@@ -23,6 +23,8 @@ header{
     display: block;
     position: fixed;
     font:inherit;
+    width:70%;
+    border-right:5px solid gray;
 }
 nav{
   
@@ -53,7 +55,7 @@ nav a {
 }
 main{
     display:block;
-    margin-left: 666px;;
+    margin-left: 686px;;
 }
 h4,h5{
     display:inline;
@@ -69,6 +71,13 @@ iframe{
     padding-top:20px;
     padding-left:30px;
 }
-
-
+#grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media(min-width:1300px){
+#grid{
+    display:block;
+    }
+}
 
